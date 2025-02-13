@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <title>PigGame</title>
+</head>
+<body>
+
+    <div class="main" style="position: relative;">
+
+        <div class="center">
+            <div class="player p0 active">
+                <div class="up">
+                    <p class="pl0">Player 1</p>
+                    <p id="perScore_0" style="font-size: 40px; color: rgb(248, 26, 96);">0</p>
+                </div>
+                <div class="score">
+                    <p>current</p>
+                    <p id="varScore_0">0</p>
+                </div>
+            </div>
+
+            <div class="player p1">
+                <div class="up">
+                    <p class="pl1">Player 2</p>
+                    <p id="perScore_1" style="font-size: 40px; color: rgb(248, 26, 96);">0</p>
+                </div>
+                <div class="score">
+                    <p>current</p>
+                    <p id="varScore_1">0</p>
+                </div>
+            </div>
+
+            <div class="layer">
+                <button class="btnNewGame">🔄 New Game</button>
+                <div class="img"></div>
+                <button class="btnRollDice">🎲 Roll Dice</button>
+                <button class="btnHold">📥 Hold</button>
+            </div>
+        </div>
+        <h3 class="copy_right" style="display: flex; justify-content: center; color: #eee; position: absolute; top: 90%; left: 37%;">Directed By M7MED_AYMAN</h3>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
